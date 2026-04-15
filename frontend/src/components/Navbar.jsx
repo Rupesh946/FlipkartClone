@@ -138,7 +138,7 @@ export default function Navbar() {
                   boxShadow: loginOpen ? '0 4px 14px rgba(0,0,0,0.15)' : 'none',
                 }}>
                 <User size={16} />
-                <span>Login</span>
+                <span>{MOCK_USER.name}</span>
                 <ChevronDown size={13} style={{ transform: loginOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
               </button>
 
